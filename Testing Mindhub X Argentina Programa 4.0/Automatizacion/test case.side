@@ -1,0 +1,239 @@
+{
+  "id": "33e7f3ce-d67f-4394-8935-36d67213e7c8",
+  "version": "2.0",
+  "name": "test case",
+  "url": "https://www.adidas.com.ar/",
+  "tests": [{
+    "id": "5bdbf09b-218b-4cb6-ae24-dfa492c17721",
+    "name": "agregar producto al carrito",
+    "commands": [{
+      "id": "9d14409f-2900-42f2-948e-dead9760cc3e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24cef0a8-1ce7-444e-817a-0e857caf0037",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "975x635",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bb750a3-d7f6-4b2d-b0e2-6d7f95cf4395",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_mobile_toggle_188zh_1 > .gl-icon__wrapper",
+      "targets": [
+        ["css=.\\_mobile_toggle_188zh_1 > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/header/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a146b82c-ad3a-43e3-a68d-db302ea18ce9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_mobile_toggle_188zh_1 > .gl-icon__wrapper",
+      "targets": [
+        ["css=.\\_mobile_toggle_188zh_1 > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/header/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93ac36a0-68c3-4925-8fcb-ff0279bb07ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .\\_highlighted_xk40i_26 > span:nth-child(1)",
+      "targets": [
+        ["css=li:nth-child(1) > .\\_highlighted_xk40i_26 > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/div[2]/div[2]/ul/li/button/span", "xpath:idRelative"],
+        ["xpath=//li/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'MUJER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "510c17ba-67c3-47f2-8044-72f9c3824b0b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_toggled_18zvc_17 > ul > li:nth-child(1) > .\\_mobile_menu_link_xk40i_1",
+      "targets": [
+        ["css=.\\_toggled_18zvc_17 > ul > li:nth-child(1) > .\\_mobile_menu_link_xk40i_1", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/div[2]/div[2]/ul/li/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Producto Destacado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "011f9cd3-b4b5-4196-a6e1-a5a1e586df7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_toggled_18zvc_17 > ul > li:nth-child(1) > .\\_mobile_menu_link_xk40i_1",
+      "targets": [
+        ["css=.\\_toggled_18zvc_17 > ul > li:nth-child(1) > .\\_mobile_menu_link_xk40i_1", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/div[2]/div[2]/ul/li/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Producto Destacado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b1a66a1-b164-4bd0-8b59-0bd696118688",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_child_section_toggled_18zvc_34 > ul > li:nth-child(1) > .\\_mobile_menu_link_xk40i_1",
+      "targets": [
+        ["css=.\\_child_section_toggled_18zvc_34 > ul > li:nth-child(1) > .\\_mobile_menu_link_xk40i_1", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/div[2]/div[2]/ul/li/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Producto Destacado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ab191da-a60a-433e-b13b-ccef0c6a23a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Novedades",
+      "targets": [
+        ["linkText=Novedades", "linkText"],
+        ["css=ul:nth-child(2) .\\_toggled_18zvc_17 li:nth-child(1) > .\\_mobile_menu_link_xk40i_1", "css:finder"],
+        ["xpath=//a[contains(text(),'Novedades')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/div[2]/div[2]/ul/li/div/ul/li/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/novedades-mujer')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/div/ul/li/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "98804513-a27d-4213-b162-706ded2b0d7b",
+    "name": "agregar producto al carrito (1)",
+    "commands": [{
+      "id": "315ac6c4-c2d1-494a-83ef-ba64718ea318",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.adidas.com.ar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a54946f-bf9a-4931-9200-df284b18e258",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "975x635",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8187e68c-332f-4bbc-afc8-4441b4195731",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_mobile_toggle_188zh_1 > .gl-icon__wrapper",
+      "targets": [
+        ["css=.\\_mobile_toggle_188zh_1 > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/header/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "438cad53-58cc-40bd-a00d-e30aa20dc109",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_mobile_toggle_188zh_1 > .gl-icon__wrapper",
+      "targets": [
+        ["css=.\\_mobile_toggle_188zh_1 > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/header/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1523348e-5ad9-4928-a672-d7cb77eda4d7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_mobile_toggle_188zh_1 > .gl-icon__wrapper",
+      "targets": [
+        ["css=.\\_mobile_toggle_188zh_1 > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/header/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "953af3d6-9547-4f19-8fda-68bc7965156f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .\\_highlighted_xk40i_26 > span:nth-child(1)",
+      "targets": [
+        ["css=li:nth-child(1) > .\\_highlighted_xk40i_26 > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/div[2]/div[2]/ul/li/button/span", "xpath:idRelative"],
+        ["xpath=//li/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'MUJER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df6e01fb-96a7-4b04-a946-2216173c73c0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_toggled_18zvc_17 li:nth-child(1) > .\\_mobile_menu_link_xk40i_1 > span:nth-child(1)",
+      "targets": [
+        ["css=.\\_toggled_18zvc_17 li:nth-child(1) > .\\_mobile_menu_link_xk40i_1 > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/div[2]/div[2]/ul/li/div/ul/li/button/span", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Producto Destacado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64db5fe0-1a8b-43ad-9f4b-0c14d843c4e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_toggled_18zvc_17 li:nth-child(1) > .\\_mobile_menu_link_xk40i_1 > span:nth-child(1)",
+      "targets": [
+        ["css=.\\_toggled_18zvc_17 li:nth-child(1) > .\\_mobile_menu_link_xk40i_1 > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/div[2]/div[2]/ul/li/div/ul/li/button/span", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Producto Destacado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d79c893-5710-43f4-97a1-911491490873",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_child_section_toggled_18zvc_34 li:nth-child(1) > .\\_mobile_menu_link_xk40i_1 > span:nth-child(1)",
+      "targets": [
+        ["css=.\\_child_section_toggled_18zvc_34 li:nth-child(1) > .\\_mobile_menu_link_xk40i_1 > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/div[2]/div[2]/ul/li/div/ul/li/button/span", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Producto Destacado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8215446-fda1-4ded-8959-e5e50781cae5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Novedades",
+      "targets": [
+        ["linkText=Novedades", "linkText"],
+        ["css=ul:nth-child(2) .\\_toggled_18zvc_17 li:nth-child(1) > .\\_mobile_menu_link_xk40i_1", "css:finder"],
+        ["xpath=//a[contains(text(),'Novedades')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/div[2]/div[2]/ul/li/div/ul/li/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/novedades-mujer')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/div/ul/li/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd941324-b250-48af-87cf-e026e9275b62",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6f62b506-e575-4e3a-90fd-747afb4cf610",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5bdbf09b-218b-4cb6-ae24-dfa492c17721"]
+  }],
+  "urls": ["https://www.adidas.com.ar/", "https://www.adidas.com.ar/novedades-mujer"],
+  "plugins": []
+}

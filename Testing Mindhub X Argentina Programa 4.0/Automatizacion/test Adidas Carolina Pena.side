@@ -1,0 +1,121 @@
+{
+  "id": "47a1d791-a3a2-4edb-b948-a62a1dfc3705",
+  "version": "2.0",
+  "name": "test Adidas Carolina Pena",
+  "url": "https://www.adidas.com.ar",
+  "tests": [{
+    "id": "0d8a3ede-a302-4ab6-9ab7-39f7f56570a8",
+    "name": "Loguear con Gmail",
+    "commands": [{
+      "id": "8cda2908-4abb-4e6f-b64a-b77d45905cf4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "483a5d57-240f-4769-bfb1-6dd0c3e7afd6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "975x635",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1555157-835b-49de-a4ce-e412b5e5212a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_user_icon_1ee10_1 > .gl-icon__wrapper",
+      "targets": [
+        ["css=.\\_user_icon_1ee10_1 > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div/header/div[2]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c8942f0-59a8-44f4-9337-129b6361cfd0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86fc975a-a666-4c4f-a683-a3cd0ed0c9fa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "86414e6b-a7e5-4216-9a43-a6efa96fffda",
+    "name": "Añadir producto al carrito (sección the best: Leo Messi)",
+    "commands": [{
+      "id": "e8863dfe-1c44-4c63-9686-798c00aa3da5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a2a3e3f-902a-47e4-8442-11440e18195a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "975x635",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a91b664-4011-48f5-bc5d-b8681243e364",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,563)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02abe0ec-1ef1-4b25-b965-d065dd6b0a46",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bf86a6a-163c-4296-96d6-30722405cb4a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1383)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e9b88df-bee8-4cba-a16a-6388dcf0e701",
+      "comment": "",
+      "command": "click",
+      "target": "css=.component-wrapper___n1twm:nth-child(4) .gl-cta__content",
+      "targets": [
+        ["css=.component-wrapper___n1twm:nth-child(4) .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='main-content']/div[4]/section/div[2]/div/div[2]/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/section/div[2]/div/div[2]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cf108e8-b51c-4b57-aba6-eb8a38e37b79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.component-wrapper___n1twm:nth-child(4) .gl-cta__content",
+      "targets": [
+        ["css=.component-wrapper___n1twm:nth-child(4) .gl-cta__content", "css:finder"],
+        ["xpath=//div[@id='main-content']/div[4]/section/div[2]/div/div[2]/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/section/div[2]/div/div[2]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1461b0d9-a0ad-41c3-808a-e3172b6351ad",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0d8a3ede-a302-4ab6-9ab7-39f7f56570a8"]
+  }],
+  "urls": ["https://www.adidas.com.ar/"],
+  "plugins": []
+}
